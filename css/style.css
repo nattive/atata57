@@ -123,6 +123,10 @@ Table OF Contents
         font-weight: 700;
     }
     
+    .text-dark {
+        color: rgb(46, 46, 46);
+    }
+    
     a {
         /* color: #078100; */
         -webkit-transition: 0.3s color;
@@ -160,6 +164,10 @@ Table OF Contents
     
     strong {
         color: #078100;
+    }
+    
+    .m-1 {
+        margin: 1em !important;
     }
     
     ul,
@@ -483,6 +491,35 @@ Table OF Contents
     .header-account.dropdown .custom-menu>li>a>i {
         margin-right: 15px;
         color: #e93b41;
+    }
+    /*----------------------------*\
+	card header
+\*----------------------------*/
+    
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .25rem
+    }
+    
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem
+    }
+    
+    .card-footer {
+        padding: .75rem 1.25rem;
+        background-color: rgba(0, 0, 0, .03);
+        border-top: 1px solid rgba(0, 0, 0, .125)
     }
     /*----------------------------*\
 	Cart header
