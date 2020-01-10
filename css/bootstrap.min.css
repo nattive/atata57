@@ -1499,6 +1499,20 @@ hr {
     cursor: pointer
 }
 
+.m-1 {
+    margin: .25rem!important
+}
+
+.mt-1,
+.my-1 {
+    margin-top: .25rem!important
+}
+
+.mt-4,
+.my-4 {
+    margin-top: 1.5rem!important
+}
+
 .h1,
 .h2,
 .h3,
@@ -1628,6 +1642,10 @@ h6 {
 
 p {
     margin: 0 0 10px
+}
+
+.w-100 {
+    width: 100%!important
 }
 
 .lead {
