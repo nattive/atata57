@@ -965,7 +965,8 @@ Table OF Contents
     }
     
     .product .product-label>span.sale {
-        background-color: #e93b41;
+        border: 1px solid #e93b41;
+        background-color: #fff;
     }
     
     .product .product-countdown {
@@ -1091,7 +1092,7 @@ Table OF Contents
     }
     
     .product.product-single .product-name {
-        font-size: 16px;
+        font-size: 1em;
     }
     
     .product.product-single .product-btns {
@@ -1154,7 +1155,7 @@ Table OF Contents
     }
     
     .product.product-widget .product-name {
-        font-size: 14px;
+        font-size: 1em;
     }
     
     .product.product-widget .cancel-btn {
