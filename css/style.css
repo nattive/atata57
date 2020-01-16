@@ -1481,6 +1481,10 @@ Table OF Contents
 	Product details
 \*----------------------------*/
     
+    tbody tr {
+        padding: none !important;
+    }
+    
     .product.product-details .product-name {
         margin-top: 15px;
         color: rgb(156, 22, 22);
