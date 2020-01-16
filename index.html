@@ -2246,6 +2246,17 @@
     <!-- //smooth-scrolling-of-move-up -->
 
     <!-- for bootstrap working -->
+    <script>
+        $(document).ready(function() {
+            // $(document).load($(window).bind("resive", checkPosition));
+            var url = $(location).attr('href')
+
+            if ($(window).width() < 767) {
+                window.location.href = url + "/mobileView.html"
+            }
+        });
+    </script>
+    <script src="js/custom.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
