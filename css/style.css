@@ -133,6 +133,24 @@ Table OF Contents
         transition: 0.3s color;
     }
     
+    .scrolling-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    
+    .card {
+        flex: 0 0 auto;
+    }
+    
+    .scrolling-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .scrolling-wrapper {
+        -webkit-overflow-scrolling: touch;
+    }
+    
     a:hover,
     a:focus {
         color: #e93b41;
@@ -343,6 +361,11 @@ Table OF Contents
     .section-title .title {
         display: inline-block;
         text-transform: uppercase;
+    }
+    
+    .mobile-title>a {
+        font-weight: 600;
+        color: #e93b41;
     }
     
     .section-title:after {
